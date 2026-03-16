@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "backend/server.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
+    "dev": "nodemon gvmt-app/backend/server.js",
     "build": "npm install --prefix gvmt-app && npm run build --prefix gvmt-app",
-    "start": "node backend/server.js"
+    "start": "node gvmt-app/backend/server.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
