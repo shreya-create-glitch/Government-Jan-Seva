@@ -120,3 +120,5 @@ const AuthPage = ({ onClose }) => {
 };
 
 export default AuthPage;
+
+
